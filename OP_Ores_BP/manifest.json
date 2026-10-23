@@ -1,0 +1,31 @@
+
+{
+  "format_version": 2,
+  "header": {
+    "name": "OP Ores Random Rewards",
+    "description": "Break ores to get random OP rewards",
+    "uuid": "b7b55f80-3b20-4b61-a9d2-5e8f7c1a2401",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f0a9c4d3-76b1-4a28-b8e2-91c53d6f7042",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c62e1f49-8d73-4b05-a6c1-0f9e2d8b7354",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}
